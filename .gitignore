@@ -1,17 +1,13 @@
 # Environment Variables
 .env
+.venv
 
-# Dataset Files
-*.csv
-*.zip
-us-accidents.zip
-US_Accidents_*.csv
 
 # Model Files
 *.pkl
 *.joblib
 models/*.pkl
-
+*.csv
 # Python
 __pycache__/
 *.py[cod]

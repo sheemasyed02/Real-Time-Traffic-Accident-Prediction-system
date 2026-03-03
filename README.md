@@ -4,10 +4,12 @@ Machine learning system to predict accident severity based on road conditions, w
 
 ## Dataset
 
-**Source:** Turkey Traffic Accidents (Kaggle)
-- Records: 200,000+ accidents
-- Features: Weather, time, road conditions, crash type
-- Target: Severity (No Injury, Non-Incapacitating, Incapacitating, Fatal)
+**Source:** Traffic Accidents Dataset
+- Records: 50,000+ accidents (configurable in notebook)
+- Features: Weather, time, road conditions, crash type, traffic control
+- Target: Severity (No Injury, Minor, Moderate, Serious, Fatal)
+
+Note: The dataset should be in CSV format as `traffic_accidents.csv` in the project root directory.
 
 ## Installation
 
